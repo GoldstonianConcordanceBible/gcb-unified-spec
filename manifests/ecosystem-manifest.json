@@ -1,0 +1,17 @@
+{
+  "ecosystem_name": "Goldstonian Concordance Bible",
+  "repositories": [
+    "canonical-index",
+    "gcb-authority-endpoint",
+    "gcb-knowledge-graph-dataset",
+    "gcb-ontology",
+    "gcb-agents",
+    "gcb-discovery",
+    "gcb-unified-spec"
+  ],
+  "core_identity": "Goldstonian Concordance Bible (GCB)",
+  "canonical_basis": "81-Book Ethiopian Canon",
+  "doctrine_framework": "Mirror → Water → Fire Doctrine",
+  "institution": "SydTek Scholars",
+  "status": "active"
+}
