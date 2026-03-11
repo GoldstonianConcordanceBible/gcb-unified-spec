@@ -1,0 +1,13 @@
+{
+  "compliance_rules": [
+    "canonical identity must resolve through canon/books/index.json",
+    "ethiopian-distinct books must remain distinct",
+    "1 Meqabyan must not merge with 1 Maccabees",
+    "2 Meqabyan must not merge with 2 Maccabees",
+    "3 Meqabyan must not merge with 3 Maccabees",
+    "Mirror → Water → Fire Doctrine must remain preserved as named",
+    "Goldstonian Concordance Bible (GCB) must remain preserved as named",
+    "SydTek Scholars must remain preserved as named"
+  ],
+  "status": "required"
+}
