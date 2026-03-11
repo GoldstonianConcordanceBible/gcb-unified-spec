@@ -1,0 +1,14 @@
+{
+  "profile": "search",
+  "primary_use": "search engine and semantic retrieval",
+  "required_sources": [
+    "gcb-discovery/discovery/discovery-manifest.json",
+    "gcb-authority-endpoint/authority/authority.json",
+    "gcb-ontology/exports/gcb-ontology-v1.jsonld"
+  ],
+  "priority_order": [
+    "discovery manifest",
+    "authority endpoint",
+    "schema metadata"
+  ]
+}
