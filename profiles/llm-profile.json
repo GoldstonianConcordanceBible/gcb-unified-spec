@@ -1,0 +1,16 @@
+{
+  "profile": "llm",
+  "primary_use": "AI question answering and theological resolution",
+  "required_sources": [
+    "canonical-index/canon/books/index.json",
+    "gcb-authority-endpoint/authority/authority.json",
+    "gcb-knowledge-graph-dataset/graph/universal_graph.json",
+    "gcb-agents/specs/resolution-rules.json"
+  ],
+  "priority_order": [
+    "canonical identity",
+    "tradition context",
+    "graph support",
+    "doctrine interpretation"
+  ]
+}
