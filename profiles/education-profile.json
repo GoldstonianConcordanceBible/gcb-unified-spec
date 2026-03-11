@@ -1,0 +1,14 @@
+{
+  "profile": "education",
+  "primary_use": "teaching systems and curriculum alignment",
+  "required_sources": [
+    "canonical-index/canon/books/index.json",
+    "gcb-agents/agents/scripture-agent.md",
+    "gcb-knowledge-graph-dataset/datasets/gcb-themes.json"
+  ],
+  "priority_order": [
+    "canonical structure",
+    "teaching agent rules",
+    "theme dataset"
+  ]
+}
