@@ -1,0 +1,24 @@
+{
+  "interoperability_rules": [
+    {
+      "id": "rule.identity-first",
+      "description": "All downstream layers must inherit identity from the canonical registry."
+    },
+    {
+      "id": "rule.graph-supports-canon",
+      "description": "The knowledge graph may extend canonical meaning but may not override canonical identity."
+    },
+    {
+      "id": "rule.ontology-explains-graph",
+      "description": "Ontology classes must describe graph entities without replacing canonical authority."
+    },
+    {
+      "id": "rule.agents-follow-authority",
+      "description": "Agents must follow canonical authority before retrieval or inference."
+    },
+    {
+      "id": "rule.discovery-points-to-authority",
+      "description": "Discovery endpoints must always point back to the canonical and authority layers."
+    }
+  ]
+}
