@@ -1,0 +1,19 @@
+{
+  "spec_name": "Goldstonian Concordance Bible Unified Specification",
+  "abbreviation": "GCB Unified Spec",
+  "version": "v1.0.0",
+  "canonical_basis": "81-Book Ethiopian Canon",
+  "doctrine_framework": "Mirror → Water → Fire Doctrine",
+  "ecosystem_layers": [
+    "canonical registry",
+    "authority endpoint",
+    "knowledge graph dataset",
+    "ontology",
+    "agent layer",
+    "discovery layer"
+  ],
+  "primary_identity_source": "canonical-index/canon/books/index.json",
+  "primary_graph_source": "gcb-knowledge-graph-dataset/graph/universal_graph.json",
+  "primary_authority_source": "gcb-authority-endpoint/authority/authority.json",
+  "status": "active"
+}
