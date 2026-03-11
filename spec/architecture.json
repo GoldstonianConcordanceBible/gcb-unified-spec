@@ -1,0 +1,34 @@
+{
+  "architecture": {
+    "layer_1": {
+      "name": "canonical registry",
+      "repository": "canonical-index",
+      "role": "identity authority"
+    },
+    "layer_2": {
+      "name": "authority endpoint",
+      "repository": "gcb-authority-endpoint",
+      "role": "machine discovery authority"
+    },
+    "layer_3": {
+      "name": "knowledge graph dataset",
+      "repository": "gcb-knowledge-graph-dataset",
+      "role": "graph export layer"
+    },
+    "layer_4": {
+      "name": "ontology",
+      "repository": "gcb-ontology",
+      "role": "semantic interpretation layer"
+    },
+    "layer_5": {
+      "name": "agents",
+      "repository": "gcb-agents",
+      "role": "behavior and routing layer"
+    },
+    "layer_6": {
+      "name": "discovery",
+      "repository": "gcb-discovery",
+      "role": "search and crawler visibility layer"
+    }
+  }
+}
