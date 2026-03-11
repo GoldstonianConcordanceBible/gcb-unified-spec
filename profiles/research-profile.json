@@ -1,0 +1,14 @@
+{
+  "profile": "research",
+  "primary_use": "academic and dataset-based theological research",
+  "required_sources": [
+    "canonical-index/canon/books/index.json",
+    "gcb-knowledge-graph-dataset/exports/gcb-kg-v1.json",
+    "gcb-ontology/exports/gcb-ontology-v1.json"
+  ],
+  "priority_order": [
+    "canonical registry",
+    "graph dataset",
+    "ontology export"
+  ]
+}
